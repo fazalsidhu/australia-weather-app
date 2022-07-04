@@ -1,12 +1,14 @@
-The Resposnive app Tells the Weather conditions in the Major Cities of Australia. Developed Using React and Open weather map APIS
+The Resposnive app tells the weather conditions in the major cities of Australia. Developed Using React and Open weather map APIS.
 
 
-Fork the project and clone it locally.
+Clone it locally.
 
-Install dependencies using npm:
+Install dependencies using:
 
-npm install
+1. npm install
 
-npm start
+Run project using:
+
+2. npm start
 
 Live Demo: https://australia-weather-app.herokuapp.com/
