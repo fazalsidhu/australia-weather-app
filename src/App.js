@@ -26,7 +26,7 @@ function App() {
   };
 
 
-  const notesToShow = [{
+  const cites = [{
     name: 'Brisbane',
     state: 'QLD'
   }, {
@@ -102,10 +102,10 @@ function App() {
 
       <div className="panel-forecast">
         <div className="weather-forecast" id="weather-forecast">
-          {notesToShow.map(note =>
+          {cites.map(city =>
             <City
-              note={note}
-              toggleImportance={() => clickHandle(note.name, note.state)}
+              city={city}
+              toggleImportance={() => clickHandle(city.name, city.state)}
             />
           )}
         </div>

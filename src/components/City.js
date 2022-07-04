@@ -1,10 +1,10 @@
-const City = ({ note, toggleImportance }) => {
+const City = ({ city, toggleImportance }) => {
 
   return (
     <div className="weather-forecast" id="weather-forecast">
       <div className="weather-forecast-item" onClick={toggleImportance}>
         <div className="day">
-          {note.name} </div>
+          {city.name} </div>
       </div>
     </div>
   )
